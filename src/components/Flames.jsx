@@ -56,7 +56,7 @@ function Flames() {
   return (
     <div>
         <input type="text" data-testid="input1" name="name1" onChange={(e)=>setFirstName(e.target.value)} value={firstName} />
-        <input type="text" data- testid="input2" name="name2" onChange={(e)=>setSecondName(e.target.value)} value={secondName} />
+        <input type="text" data-testid="input2" name="name2" onChange={(e)=>setSecondName(e.target.value)} value={secondName} />
         <button type="submit" data-testid="calculate_relationship" name="calculate_relationship" onClick={calculateRelationship}>calculate relationship Future</button>
         <button data-testid="clear" name="clear" onClick={clear}>Clear</button>
         <h3 data-testid="answer">{answer}</h3>
